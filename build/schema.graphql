@@ -1,6 +1,6 @@
 type ActiveItem @entity {
   id: ID!
-  buyer: Bytes!
+  buyer: Bytes! #Address. 0x000... by default
   seller: Bytes!
   nftAddress: Bytes!
   tokenId: BigInt!

@@ -106,6 +106,7 @@
     "outputs": [
       {
         "type": "tuple",
+        "name": "",
         "components": [
           { "type": "uint256", "name": "price" },
           { "type": "address", "name": "seller" }
@@ -120,7 +121,7 @@
     "stateMutability": "view",
     "payable": false,
     "inputs": [{ "type": "address", "name": "seller" }],
-    "outputs": [{ "type": "uint256" }]
+    "outputs": [{ "type": "uint256", "name": "" }]
   },
   {
     "type": "function",
